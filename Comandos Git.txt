@@ -1,0 +1,25 @@
+git config --global user.name "Thalisson01"
+git config --global user.email "thalisson.felipe60@gmail.com"
+
+#Baixar tudo do git para seu pc
+git clone link
+
+#Ir até a pasta baixada
+cd pasta
+
+#Preparar o git para receber arquivo
+git add .
+
+#Mandar os arquvios com uma descrição
+git commit -m "DESC"
+#Quando errar a mensagem do commit
+git commit --amend
+
+#Verificar se não ocrreu nenhum erro
+git status
+
+#Confirmar o envio e enviar
+git push
+
+#Atualizar os arquivos que estão no seu pc
+git pull
